@@ -7,23 +7,23 @@ create table tb_produtos(
 id bigint auto_increment,
 nome varchar(255) not null,
 quantidade int,
-validate date,
-preco decimal not null,
+datavalidade date,
+preco decimal(6,2) not null,
 primary key(id)
 );
 
 
-INSERT INTO tb_produtos(nome, quantidade, validate, preco) 
+INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco) 
 values ("tomate",100, "2023-12-15", 8.00);
-INSERT INTO tb_produtos(nome, quantidade, validate, preco) 
+INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco) 
 values ("maçã",20, "2023-12-15", 5.00);
-INSERT INTO tb_produtos(nome, quantidade, validate, preco) 
+INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco) 
 values ("laranja",50, "2023-12-15", 10.00);
-INSERT INTO tb_produtos(nome, quantidade, validate, preco) 
+INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco) 
 values ("banana",200, "2023-12-15", 12.00);
-INSERT INTO tb_produtos(nome, quantidade, validate, preco) 
+INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco) 
 values ("uva",1200, "2023-12-15", 30.00);
-INSERT INTO tb_produtos(nome, quantidade, validate, preco) 
+INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco) 
 values ("pêra",500, "2023-12-15", 2.99);
 
 -- drop table tb_produtos;

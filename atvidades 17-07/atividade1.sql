@@ -22,6 +22,8 @@ INSERT INTO employes (nome, salario, cargo, data_contra)
 VALUES ("Suzana", 1690, "Atendente 1", '1997-12-23');
 INSERT INTO employes (nome, salario, cargo, data_contra) 
 VALUES ("Cicero", 2200, "Atendente 2", '1997-12-23');
+INSERT INTO employes (salario, cargo, data_contra)
+VALUES (2500, "Limpeza", "1999-02-25");
 
 
 
